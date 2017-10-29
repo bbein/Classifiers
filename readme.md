@@ -6,17 +6,17 @@ logging, git, git-flow and best practices for all of them.
 # Install
 
 Run this script to install the package using:
-    pip install .
+    `pip install .`
 
 To install the package for local development use:
-    pip install -e .
+    `pip install -e .`
 
 To run all the tests for the classifiers use:
-    python setup.py test
+    `python setup.py test`
 
 # Usage
 
-```
+```python
 import logging
 from Classifiers import LogisticRegression
 model = LogisticRegression(max_iteration=20001, step_size=1e1, min_change=1e-6)
